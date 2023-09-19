@@ -21,9 +21,12 @@ Build the program with a single command:
 `make pathopt`
 
 ## Command Line Interface
-Run the program using the command line (NOTE: For 'ALGO TYPE' chose between MST, FAST_TSP, or OPTIMAL_TSP:
+Run the program using the command line:
 
 `./pathOpt 'ALGO TYPE' < input.txt > output.txt`
+
+(NOTE: For 'ALGO TYPE' chose between MST, FAST_TSP, or OPTIMAL_TSP)
+
 
 input.txt: A text file containing the 2D coordinates of points, one point per line (x and y separated by space), and the number of coordinates in the list line.
 
@@ -33,14 +36,17 @@ output.txt: The file where the optimized path will be saved, with the first line
 
 The input.txt should look something like this:
 
-`10`
-`-735 594`
-`652 -43`
-`-871 -813`
-256 950
--753 64
+
+```plaintext
+10
+-735 594
+652 -43
+-871 -813
+256  950
+-753  64
 489 -686
--22 759
+-22  759
 -899 777
 517 -316
-361 42`
+361   42
+
